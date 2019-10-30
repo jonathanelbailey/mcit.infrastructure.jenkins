@@ -1,0 +1,14 @@
+namespaceOverride: jenkins
+master:
+  tag: latest
+  serviceType: NodePort
+  nodePort: 8080
+  installPlugins:
+    - git
+    - github
+    - kubernetes
+    - workflow-aggregator
+    - credentials-binding
+    - mask-passwords
+agent:
+  tag: latest

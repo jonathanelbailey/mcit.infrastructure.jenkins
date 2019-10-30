@@ -1,4 +1,4 @@
-apiVersion: extensions/v1beta1 # for versions before 1.7.0 use apps/v1beta1
+apiVersion: extensions/v1 # for versions before 1.7.0 use apps/v1beta1
 kind: Deployment
 metadata:
   name: jenkins

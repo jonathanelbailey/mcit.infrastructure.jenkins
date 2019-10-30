@@ -2,7 +2,6 @@ namespaceOverride: jenkins
 master:
   tag: latest
   serviceType: NodePort
-  nodePort: 8080
   installPlugins:
     - git
     - github
